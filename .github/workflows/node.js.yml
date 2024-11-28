@@ -30,13 +30,4 @@ jobs:
     - name: Build application
       run: npm run build --if-present
 
-    - name: Run tests
-      run: npm test
-
-    - name: Deploy to GitHub Pages
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        npm run deploy -- -m "Deployed by GitHub Actions"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # Removed npm test because no tests are defined
