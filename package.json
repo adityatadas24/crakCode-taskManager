@@ -1,7 +1,7 @@
 {
   "name": "task-manager-app",
   "private": true,
-  "homepage": "https://adityatadas24.github.io/task-manager-app/",
+  "homepage": "https://adityatadas24.github.io/task-manager-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
