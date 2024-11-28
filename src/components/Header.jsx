@@ -18,7 +18,7 @@ const Header = () => {
       className="w-full p-2 px-8 flex justify-between items-center
      bg-slate-600 text-white"
     >
-      <h1 className="text-2xl font-bold">Task Managers</h1>
+      <h1 className="text-2xl font-bold">Task Manager</h1>
       <button onClick={handleLogout}>Logout</button>
     </div>
   );
